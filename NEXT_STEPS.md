@@ -30,14 +30,33 @@ All the code and documentation for your Batman Night Patrol project has been cre
 
 ## 🎯 What You Need to Do Now
 
+### Step 0: Fix Input System Errors (1 minute) ⚠️ IMPORTANT!
+
+**If you see input errors in Unity's Console, do this FIRST:**
+
+1. In Unity, go to **Edit > Project Settings**
+2. Click **Player** in the left panel
+3. Expand **Other Settings**
+4. Find **Active Input Handling**
+5. Change from "Input System Package (New)" to **"Both"**
+6. Click **"Yes"** when Unity asks to restart
+7. Wait for Unity to restart
+
+**This fixes all input errors!** ✅
+
+For more details, see [FIXING_INPUT_ERRORS.md](FIXING_INPUT_ERRORS.md)
+
+---
+
 ### Step 1: Open Unity and Setup Scene (5 minutes)
 
 1. Open Unity Hub
 2. Open this project: "Batman-Night-Patrol"
 3. Wait for Unity to import all assets (may take a few minutes first time)
-4. Once loaded, go to menu: **Tools > Batman Night Patrol > Setup Scene**
-5. Click "Yes" to auto-generate the scene
-6. Wait for setup to complete
+4. **If you see errors**, follow Step 0 above to fix input system
+5. Once loaded, go to menu: **Tools > Batman Night Patrol > Setup Scene**
+6. Click "Yes" to auto-generate the scene
+7. Wait for setup to complete
 
 **Result**: You'll have a complete Gotham scene with Batman character!
 
